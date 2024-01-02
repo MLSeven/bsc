@@ -1,0 +1,24 @@
+{
+  "temp": {
+    "units": "C",
+    "decimals": 1
+  },
+  "wind": {
+    "units": "mph",
+    "decimals": 1
+  },
+  "rain": {
+    "units": "mm",
+    "decimals": 2
+  },
+  "press": {
+    "units": "mb",
+    "decimals": 1
+  },
+  "hum": {
+    "decimals": 0
+  },
+  "uv": {
+    "decimals": 1
+  }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta name="keywords" content="Budworth Sailing Club weather data, weather, data, weather station, steelseries">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Budworth Sailing Club Live Wind gauges</title>
+    <link href="lib/steelseries/css/gauges-ss.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="bsc/theme_budworth.css" rel="stylesheet" type="text/css" />
+    <link href="bsc/bscstyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- this stylesheet is for the Steelseries Gauges-->
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid bg-primary bsctitles">
+            <img class="img-fluid" src="bsc/bsclogotrans.png">
+        </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+            <a class="navbar-brand" href="index.htm">Budworth Live</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="index.htm">Live Gauges</a></li>
+                    <li class="nav-item"><a class="nav-link" href="now.htm">Latest Tables</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <!-- Javascript check -->
+        <noscript>
+            <h2 style="color:red; text-align:center">&gt;&gt;This pages requires JavaScript enabling in your
+                browser.&lt;&lt;<br>&gt;&gt;Please enable scripting it to enjoy this site at its best.&lt;&lt;
+            </h2>
+        </noscript>
+        <div class="container-fluid mt-1 bscgauges">
+            <div class="row">
+                <div class="col m-1 p-1 bg-primary">
+                    <div class="d-flex">
+                        <!-- Show a RAG (Red,Amber,Green) icon to indicate connection state-->
+                        <div class="p-1">
+                            <i id="ragicon" class="fas fa-cloud"></i>
+                        </div>
+                        <!-- Responsive: Marquee - Scroll on small screens-->
+                        <div class="p-1 flex-grow-1 text-light marquee-container">
+                            <span id="statustext" class="marquee-text"> </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Use flexbox to Always show Windspeed and Wind Direction gauges but only show others on large screens-->
+            <!-- NOTE id required by Steelseries gauges to dynamically create tooltip-->
+            <!-- Always show Wind Speed and Direction -->
+            <div class="row">
+                <div id="tip_6" class="col p-1 d-flex justify-content-center">
+                    <canvas id="canvas_wind" class="gaugeSizeResponsive"></canvas>
+                </div>
+                <div id="tip_7" class="col p-1 d-flex justify-content-center">
+                    <canvas id="canvas_dir" class="gaugeSizeResponsive"></canvas>
+                </div>
+                <!-- Add Barometer if there is room -->
+                <div id="tip_5" class="d-none d-md-flex col p-1 justify-content-center">
+                    <canvas id="canvas_baro" class="gaugeSizeResponsive"></canvas>
+                </div>
+                <!-- And add Termperature if there is room -->
+                <div id="tip_0" class="d-none d-lg-flex col p-1 justify-content-center">
+                    <canvas id="canvas_temp" class="gaugeSizeResponsive"></canvas>
+                </div>
+            </div>
+            <!-- Show the Wind Units controls -->
+            <div class="row">
+                <div class="d-inline-flex mx-auto mb-1 p-1 text-align-center bg-info">
+                    <div><span class="small p-1">Wind Units</span></div>
+                    <div class="d-inline">
+                        <input id="rad_unitsWind4" type="radio" name="rad_unitsWind" value="km/h" checked
+                            onclick="gauges.setUnits(this);"><label id="lab_unitsWind4"
+                            for="rad_unitsWind4">km/h</label>
+                    </div>
+                    <div>
+                        <input id="rad_unitsWind3" type="radio" name="rad_unitsWind" value="m/s"
+                            onclick="gauges.setUnits(this);"><label id="lab_unitsWind3" for="rad_unitsWind3">m/s</label>
+                    </div>
+                    <div>
+                        <input id="rad_unitsWind1" type="radio" name="rad_unitsWind" value="mph"
+                            onclick="gauges.setUnits(this);"><label id="lab_unitsWind1" for="rad_unitsWind1">mph</label>
+                    </div>
+                    <div>
+                        <input id="rad_unitsWind2" type="radio" name="rad_unitsWind" value="kts"
+                            onclick="gauges.setUnits(this);"><label id="lab_unitsWind2"
+                            for="rad_unitsWind2">knots</label>
+                    </div>
+                </div>
+            </div>
+            <!-- On small screens or Portrait Phones show Alternative banner-->
+            <div class="row">
+                <div class="bscmerealt col bg-danger text-light">
+                    <p>On mobile devices rotate to see the Mere View</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Show a map of the Mere only on larger screens. Overlay the Wind Rose in centre of Mere-->
+        <div class="bscmereimg mt-1">
+            <div class="bscmereview">
+                <span class="filler"></span>
+                <div id="tip_10" class="bscrose p-2 d-flex justify-content-center">
+                    <canvas id="canvas_rose" class="rosegauge"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="small">
+        <div class="container-fluid mt-1 bg-primary text-light">
+            <p class="mb-0">Budworth Sailing Club: Site v2.0 SPotts Nov 2020 </p>
+            <p class="mb-1">Data powered by CumulusMX v<#version> (b<#build>). SteelSeries Gauges by M. Crossley</p>
+        </div>
+    </footer>
+
+    <!-- Required Scripts -->
+    <!-- Google CDN hosted JQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap 4 CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.2/mqttws31.min.js"
+        type="text/javascript"></script>
+
+    <!-- Combined steelseries.js & tween.js -->
+    <script src="lib/steelseries/scripts/steelseries_tween.min.js"></script>
+
+    <!-- Once you have customised this scripts to your requirements you should minimise
+       and concatenate them into a single file in the same order  as below -->
+    <script src="lib/steelseries/scripts/language.min.js"></script>
+    <script src="lib/steelseries/scripts/gauges.js"></script>
+
+    <!--Optional Wind Rose scripts -->
+    <script src="lib/steelseries/scripts/RGraph.common.core.min.js"></script>
+    <script src="lib/steelseries/scripts/RGraph.rose.min.js"></script>
+    <!--mqtt Realtime Gauge updates script (SPotts) -->
+    <script src="js/mqttrealtime.js" type="text/javascript"></script>
+</body>
+
+</html>

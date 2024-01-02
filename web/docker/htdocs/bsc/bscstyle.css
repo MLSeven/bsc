@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+/*Default setting for the page document - set max width for v large displays*/
+
+body {
+    height: 100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    line-height: 50px;
+}
+
+.bscbody {
+    background-attachment: fixed;
+    background-image: url('bscbackground.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+.bscpage {
+    background-color: #ecece2;
+}
+
+.bscresptable {
+    overflow-y: scroll;
+    margin: 5px;
+ }
+
+  /* Table styling based on bsctable class */
+
+ .bsctable {
+    font-size: 1.0em;
+    background-color: ghostwhite;
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+    margin-bottom: 10px;    
+ }
+
+.bsctable thead > tr > th {
+    font-size: 1.05em;
+    background-color: #0048b3;
+    color: #FFFFFF;
+    line-height: 1.9em;
+    margin-top: 3px;
+}
+
+.bsctable tbody {
+    border-bottom-width: 6px;
+    border-bottom: solid;
+}
+/* Sub Table (tbody)Header style*/
+.bsctable tbody > tr > th {
+    font-size: 0.95em;
+    padding-right: 0.1em;
+    /*background-color: #0048b3;*/
+}
+
+.bsctable caption {
+    background-color: #0048b3;
+    color : white;
+    caption-side: top;
+    font-size: 1.05em;
+}
+
+.bsctable td {
+    font-size: 0.95em;
+    padding-top: 0.05em;
+    padding-right: 0.1em;
+    padding-bottom: 0.05em;
+    padding-left: 0.15em;
+}
+
+.bsctable tr:nth-child(even) {
+    /*background-color: #F2F2F2; */
+    background-color: gainsboro;
+}
+
+/* Page banner - before Nav Bar*/
+.bsctitles {
+    background: linear-gradient(to bottom, #0e0e4f 0%, #000080 50%, #0048b3 100%);
+    color: #9ac8f2;
+}
+
+
+/* Gauges panel background styling */
+.bscgauges {
+    background-color: #ecece2;
+}
+
+
+/* Responsive layout for Main Gauges */
+
+/* for screens up to 568px */
+.gaugeSizeResponsive {
+    width: 191px;
+    height: 191px;
+}
+
+.rosegauge {
+    width: 131px;
+    height: 131px;
+}
+
+/* Responsive layout for screen 569-799px 
+  @media screen and (min-width: 569px) {
+    .gaugeSizeResponsive {
+        width: 181px;
+        height: 181px;
+    }
+  }
+
+  */
+
+  @media screen and (min-width: 768px) {
+    .gaugeSizeResponsive{
+        width: 201px;
+        height: 201px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .gaugeSizeResponsive{
+        width: 215px;
+        height: 215px;
+    }
+    .rosegauge {
+        width: 161px;
+        height: 161px;
+    }
+  }
+
+
+  /* Display background Image of Mere. Scale so that whole image fits and is responsive */
+.bscmereview {
+    position: relative;
+    min-width:100%;
+    background-image: url('mere1440x692.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%; 
+}
+
+/* This is a hack to ensure the whole background image is loaded padding-top is 
+% Aspect ration of Image y/x*100 */
+.filler {
+    padding-top: 48.06%; 
+    display: block;
+    height: 0;
+}
+
+/* Responsive Classes for Small Screens upto 560px wide 
+
+on screens 0 - 560 the MereImage is hidden and the Mere Alternative is shown
+on screens > 560 show the Mere Container */
+
+.bscmereimg {
+    position: relative;
+    display: none;
+}
+@media screen and (min-width: 560px) {
+    .bscmereimg {
+        position: relative;
+        display:flex;
+    }
+}
+
+.bscmerealt {
+    position: relative;
+    display: flex;
+}
+@media screen and (min-width: 560px) {
+    .bscmerealt {
+        position: relative;
+        display:none;
+    }
+}
+
+.bscrose {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-45%,-55%);
+}
+
+.marquee-container {
+    /*height:25px;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee-text {
+    min-width: 100%;
+    position: absolute;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 1.1em;
+    margin: 0px;
+
+}
+
+/* Scroll the marquee on screens < 760px */
+@media screen and (max-width: 760px) {
+    .marquee-text {
+        animation: marquee 10s linear infinite;
+        -moz-animation: marquee 10s linear infinite;
+        -webkit-animation: marquee 10s linear infinite;
+    }
+}
+
+@keyframes marquee {
+    0% {transform: translateX(0%);}    
+    50% {transform: translateX(0%);}
+    100% {transform: translateX(-100%);}
+}
+
+@-moz-keyframes marquee {
+    0%   { -moz-transform: translateX(0%); }
+    50%  { -moz-transform: translateX(0%); }
+    100% { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes marquee {
+    0%   { -webkit-transform: translateX(0%); }
+    50%  { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(-100%); }
+}

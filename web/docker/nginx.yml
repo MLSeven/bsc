@@ -1,0 +1,15 @@
+# Nginx Web Server
+version: '3.4'
+
+services:
+  nginx:
+    image: nginx
+    container_name: nginx_web
+    volumes:
+      - ./htdocs:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx
+
+    restart: unless-stopped
+    ports:
+      - 8000:80
+      - 8001:443

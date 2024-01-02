@@ -1,0 +1,14 @@
+# Apache Web Server
+version: '3.4'
+services:
+  httpd:
+    image: httpd
+    container_name: apache_httpd
+    volumes:
+      - ./htdocs:/usr/local/apache2/htdocs
+      - ./httpd.conf:/usr/local/apache2/conf
+
+    restart: unless-stopped
+    ports:
+      - 8000:80
+      - 8001:443

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Budworth Sailing Club weather data" />
+    <meta name="keywords" content="Cumulus, Budworth Sailing Club weather data, weather, data, weather station" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Budworth Sailing Club Main Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="bsc/theme_budworth.css" rel="stylesheet" type="text/css" />
+    <link href="bsc/bscstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid bsctitles">
+            <img class="img-fluid" src="bsc/bsclogotrans.png">
+        </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-danger">
+            <a class="navbar-brand" href="index.htm">Budworth Live</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.htm">Live Gauges</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="now.htm">Latest Tables</a></li>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <!-- Main page starts here -->
+        <div class="pt-2 bscpage">
+            <div class="container-fluid table-responsive">
+                <!-- Current Wind And Temperature -->
+                <table class="bsctable">
+                    <caption>Table shows lastest readings updated every 15 munutes</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Observations @ <#time></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Wind Speed <small>(10min avg)</small></th>
+                            <td><#wspeed>&nbsp;<#windunit></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wind Gust <small>(10min avg)</small></th>
+                            <td><#wgust>&nbsp;<#windunit></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Beaufort</th>
+                            <td><#beaufort>&nbsp;<#beaudesc></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wind Bearing</th>
+                            <td><#avgbearing>&deg; <#wdir></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Wind Variation</th>
+                            <td>From <#BearingRangeFrom>&deg; To <#BearingRangeTo>&deg;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Highest Avg Windspeed <small>(today)</small></th>
+                            <td><#windTM> <#windunit> at <#TwindTM></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Highest Gust <small>(today)</small></th>
+                            <td><#wgustTM> <#windunit> <#bearingTM>&deg; at <#TwgustTM></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Current Temp.</th>
+                            <td><#temp><#tempunit></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Today's High</th>
+                            <td><#tempTH><#tempunit> at <#TtempTH></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Today's Low</th>
+                            <td><#tempTL><#tempunit> at <#TtempTL></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Windchill</th>
+                            <td><#wchill>&nbsp;<#tempunit></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pressure</th>
+                            <td><#press>&nbsp;<#pressunit></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Pressure Trend</th>
+                            <td><#presstrendenglish></td>
+                        </tr>
+                    </tbody>
+
+                    <thead class="">
+                        <tr>
+                            <th colspan="2">Almanac @ <#time>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Sunrise</th>
+                            <td>
+                                <#sunrise>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sunset</th>
+                            <td>
+                                <#sunset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Dawn</th>
+                            <td>
+                                <#dawn>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Dusk</th>
+                            <td>
+                                <#dusk>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Daylight</th>
+                            <td>
+                                <#daylightlength>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Day Length</th>
+                            <td>
+                                <#daylength>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Moonrise</th>
+                            <td>
+                                <#moonrise>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Moonset</th>
+                            <td>
+                                <#moonset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Moonphase</th>
+                            <td>
+                                <#moonphase>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- END Almanac -->
+            </div>
+        </div>
+    </section>
+    <!-- Standard Credits-->
+    <footer class="small">
+        <div class="container-fluid bg-primary text-light">
+            <p class="mb-0">Page last Updated <#update>
+            </p>
+            <p class="mb-0 small">Data powered by <em>CumulusMX </em>v<#version> (<#build>)
+                        <p class="mb-0 small">Budworth Sailing Club Site S.Potts v2 Oct 2020</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
