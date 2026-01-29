@@ -5,7 +5,7 @@ services:
     container_name: MQTTBroker
     ports:
       - 1883:1883
-      - 9000:9000
+      - 9001:9001
     volumes:
       - ./config:/mosquitto/config
       - ./data:/mosquitto/data
