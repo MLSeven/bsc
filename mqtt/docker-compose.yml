@@ -1,0 +1,13 @@
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    restart: unless-stopped
+    container_name: MQTTBroker
+    ports:
+      - 1883:1883
+      - 9000:9000
+    volumes:
+      - ./config:/mosquitto/config
+      - ./data:/mosquitto/data
+      - ./log:/mosquitto/log
+

@@ -1,0 +1,650 @@
+1769691874: mosquitto version 2.0.22 starting
+1769691874: Config loaded from /mosquitto/config/mosquitto.conf.
+1769691874: Opening ipv4 listen socket on port 1883.
+1769691874: Opening ipv6 listen socket on port 1883.
+1769691874: Opening websockets listen socket on port 9000.
+1769691874: mosquitto version 2.0.22 running
+1769691904: New connection from 192.168.65.1:20229 on port 1883.
+1769691904: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691905: New connection from 192.168.65.1:64051 on port 1883.
+1769691905: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691906: New connection from 192.168.65.1:40747 on port 1883.
+1769691906: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691907: New connection from 192.168.65.1:27015 on port 1883.
+1769691907: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691908: New connection from 192.168.65.1:57176 on port 1883.
+1769691908: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691909: New connection from 192.168.65.1:60376 on port 1883.
+1769691909: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691910: New connection from 192.168.65.1:18362 on port 1883.
+1769691910: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691911: New connection from 192.168.65.1:49991 on port 1883.
+1769691911: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691912: New connection from 192.168.65.1:37436 on port 1883.
+1769691912: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691913: New connection from 192.168.65.1:23757 on port 1883.
+1769691913: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691914: New connection from 192.168.65.1:32798 on port 1883.
+1769691914: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691915: New connection from 192.168.65.1:22312 on port 1883.
+1769691915: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691916: New connection from 192.168.65.1:17299 on port 1883.
+1769691916: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691917: New connection from 192.168.65.1:27973 on port 1883.
+1769691917: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691918: New connection from 192.168.65.1:56774 on port 1883.
+1769691918: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691919: New connection from 192.168.65.1:16235 on port 1883.
+1769691919: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691920: New connection from 192.168.65.1:59433 on port 1883.
+1769691920: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691921: New connection from 192.168.65.1:22611 on port 1883.
+1769691921: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691922: New connection from 192.168.65.1:40079 on port 1883.
+1769691922: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691923: New connection from 192.168.65.1:44325 on port 1883.
+1769691923: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691924: New connection from 192.168.65.1:32311 on port 1883.
+1769691924: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691925: New connection from 192.168.65.1:24792 on port 1883.
+1769691925: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691926: New connection from 192.168.65.1:28328 on port 1883.
+1769691926: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691927: New connection from 192.168.65.1:60199 on port 1883.
+1769691927: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691928: New connection from 192.168.65.1:40524 on port 1883.
+1769691928: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691929: New connection from 192.168.65.1:59030 on port 1883.
+1769691929: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691930: New connection from 192.168.65.1:33800 on port 1883.
+1769691930: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691931: New connection from 192.168.65.1:25676 on port 1883.
+1769691931: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691932: New connection from 192.168.65.1:32810 on port 1883.
+1769691932: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691933: New connection from 192.168.65.1:40984 on port 1883.
+1769691933: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691934: New connection from 192.168.65.1:47358 on port 1883.
+1769691934: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691935: New connection from 192.168.65.1:40085 on port 1883.
+1769691935: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691936: New connection from 192.168.65.1:22414 on port 1883.
+1769691936: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691937: New connection from 192.168.65.1:36706 on port 1883.
+1769691937: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691938: New connection from 192.168.65.1:51418 on port 1883.
+1769691938: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691939: New connection from 192.168.65.1:40634 on port 1883.
+1769691939: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691940: New connection from 192.168.65.1:45789 on port 1883.
+1769691940: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691941: New connection from 192.168.65.1:56199 on port 1883.
+1769691941: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691942: New connection from 192.168.65.1:64896 on port 1883.
+1769691942: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691943: New connection from 192.168.65.1:18255 on port 1883.
+1769691943: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691944: New connection from 192.168.65.1:34305 on port 1883.
+1769691944: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691945: New connection from 192.168.65.1:54179 on port 1883.
+1769691945: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691946: New connection from 192.168.65.1:46420 on port 1883.
+1769691946: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691947: New connection from 192.168.65.1:45912 on port 1883.
+1769691947: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691948: New connection from 192.168.65.1:25126 on port 1883.
+1769691948: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691949: New connection from 192.168.65.1:25389 on port 1883.
+1769691949: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691950: New connection from 192.168.65.1:35027 on port 1883.
+1769691950: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691951: New connection from 192.168.65.1:17850 on port 1883.
+1769691951: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691952: New connection from 192.168.65.1:23143 on port 1883.
+1769691952: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691953: New connection from 192.168.65.1:41693 on port 1883.
+1769691953: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691954: New connection from 192.168.65.1:41025 on port 1883.
+1769691954: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691955: New connection from 192.168.65.1:41810 on port 1883.
+1769691955: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691956: New connection from 192.168.65.1:30327 on port 1883.
+1769691956: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691957: New connection from 192.168.65.1:64603 on port 1883.
+1769691957: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691958: New connection from 192.168.65.1:62578 on port 1883.
+1769691958: Client mqttjs_bbb590b1 disconnected, not authorised.
+1769691994: New connection from 192.168.65.1:32908 on port 1883.
+1769691994: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769691995: New connection from 192.168.65.1:61535 on port 1883.
+1769691995: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769691996: New connection from 192.168.65.1:56805 on port 1883.
+1769691996: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769691997: New connection from 192.168.65.1:43264 on port 1883.
+1769691997: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769691998: New connection from 192.168.65.1:38992 on port 1883.
+1769691998: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769691999: New connection from 192.168.65.1:21529 on port 1883.
+1769691999: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692000: New connection from 192.168.65.1:25216 on port 1883.
+1769692000: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692001: New connection from 192.168.65.1:16274 on port 1883.
+1769692001: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692002: New connection from 192.168.65.1:58933 on port 1883.
+1769692002: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692003: New connection from 192.168.65.1:16319 on port 1883.
+1769692003: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692004: New connection from 192.168.65.1:50233 on port 1883.
+1769692004: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692005: New connection from 192.168.65.1:62102 on port 1883.
+1769692005: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692006: New connection from 192.168.65.1:45098 on port 1883.
+1769692006: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692007: New connection from 192.168.65.1:34838 on port 1883.
+1769692007: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692008: New connection from 192.168.65.1:36593 on port 1883.
+1769692008: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692009: New connection from 192.168.65.1:60404 on port 1883.
+1769692009: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692010: New connection from 192.168.65.1:42824 on port 1883.
+1769692010: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692011: New connection from 192.168.65.1:49052 on port 1883.
+1769692011: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692012: New connection from 192.168.65.1:16800 on port 1883.
+1769692012: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692013: New connection from 192.168.65.1:49091 on port 1883.
+1769692013: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692014: New connection from 192.168.65.1:25546 on port 1883.
+1769692014: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692015: New connection from 192.168.65.1:40254 on port 1883.
+1769692015: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692016: New connection from 192.168.65.1:62620 on port 1883.
+1769692016: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692017: New connection from 192.168.65.1:51645 on port 1883.
+1769692017: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692018: New connection from 192.168.65.1:17120 on port 1883.
+1769692018: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692019: New connection from 192.168.65.1:44512 on port 1883.
+1769692019: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692020: New connection from 192.168.65.1:28217 on port 1883.
+1769692020: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692021: New connection from 192.168.65.1:47297 on port 1883.
+1769692021: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692022: New connection from 192.168.65.1:32065 on port 1883.
+1769692022: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692023: New connection from 192.168.65.1:41908 on port 1883.
+1769692023: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692024: New connection from 192.168.65.1:47560 on port 1883.
+1769692024: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692025: New connection from 192.168.65.1:63595 on port 1883.
+1769692025: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692026: New connection from 192.168.65.1:19654 on port 1883.
+1769692026: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692027: New connection from 192.168.65.1:35844 on port 1883.
+1769692027: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692028: New connection from 192.168.65.1:57727 on port 1883.
+1769692028: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692029: New connection from 192.168.65.1:21705 on port 1883.
+1769692029: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692030: New connection from 192.168.65.1:63563 on port 1883.
+1769692030: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692031: New connection from 192.168.65.1:50849 on port 1883.
+1769692031: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692032: New connection from 192.168.65.1:63909 on port 1883.
+1769692032: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692033: New connection from 192.168.65.1:64291 on port 1883.
+1769692033: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692034: New connection from 192.168.65.1:20530 on port 1883.
+1769692034: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692035: New connection from 192.168.65.1:39807 on port 1883.
+1769692035: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692036: New connection from 192.168.65.1:28036 on port 1883.
+1769692036: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692037: New connection from 192.168.65.1:54390 on port 1883.
+1769692037: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692038: New connection from 192.168.65.1:18967 on port 1883.
+1769692038: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692039: New connection from 192.168.65.1:39812 on port 1883.
+1769692039: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692040: New connection from 192.168.65.1:44938 on port 1883.
+1769692040: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692041: New connection from 192.168.65.1:37858 on port 1883.
+1769692041: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692042: New connection from 192.168.65.1:61590 on port 1883.
+1769692042: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692043: New connection from 192.168.65.1:41781 on port 1883.
+1769692043: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692044: New connection from 192.168.65.1:52971 on port 1883.
+1769692044: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692045: New connection from 192.168.65.1:30019 on port 1883.
+1769692045: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692046: New connection from 192.168.65.1:23372 on port 1883.
+1769692046: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692047: New connection from 192.168.65.1:62717 on port 1883.
+1769692047: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692048: New connection from 192.168.65.1:47064 on port 1883.
+1769692048: Client mqttjs_7c90ea89 disconnected, not authorised.
+1769692447: Client mqtt1769692446904 closed its connection.
+1769692447: Client mqtt1769692446904 closed its connection.
+1769692462: Client mqtt1769692446904 closed its connection.
+1769692463: Client mqtt1769692446904 closed its connection.
+1769692478: Client mqtt1769692446904 closed its connection.
+1769692478: Client mqtt1769692446904 closed its connection.
+1769692493: Client mqtt1769692446904 closed its connection.
+1769692493: Client mqtt1769692446904 closed its connection.
+1769692509: Client mqtt1769692446904 closed its connection.
+1769692509: Client mqtt1769692446904 closed its connection.
+1769692514: New connection from 192.168.65.1:17952 on port 1883.
+1769692514: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692515: New connection from 192.168.65.1:19323 on port 1883.
+1769692515: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692516: New connection from 192.168.65.1:20085 on port 1883.
+1769692516: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692517: New connection from 192.168.65.1:16087 on port 1883.
+1769692517: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692518: New connection from 192.168.65.1:63667 on port 1883.
+1769692518: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692519: New connection from 192.168.65.1:39684 on port 1883.
+1769692519: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692520: New connection from 192.168.65.1:28183 on port 1883.
+1769692520: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692521: New connection from 192.168.65.1:36345 on port 1883.
+1769692521: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692522: New connection from 192.168.65.1:50537 on port 1883.
+1769692522: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692523: New connection from 192.168.65.1:59344 on port 1883.
+1769692523: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692524: New connection from 192.168.65.1:57842 on port 1883.
+1769692524: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692525: New connection from 192.168.65.1:17645 on port 1883.
+1769692525: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692526: New connection from 192.168.65.1:24456 on port 1883.
+1769692526: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692527: New connection from 192.168.65.1:53006 on port 1883.
+1769692527: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692528: New connection from 192.168.65.1:38893 on port 1883.
+1769692528: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692529: New connection from 192.168.65.1:19064 on port 1883.
+1769692529: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692530: New connection from 192.168.65.1:41209 on port 1883.
+1769692530: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692531: New connection from 192.168.65.1:59460 on port 1883.
+1769692531: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692532: New connection from 192.168.65.1:34785 on port 1883.
+1769692532: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692533: New connection from 192.168.65.1:44583 on port 1883.
+1769692533: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692534: New connection from 192.168.65.1:60340 on port 1883.
+1769692534: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692535: New connection from 192.168.65.1:31160 on port 1883.
+1769692535: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692536: New connection from 192.168.65.1:25607 on port 1883.
+1769692536: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692537: New connection from 192.168.65.1:55653 on port 1883.
+1769692537: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692538: New connection from 192.168.65.1:24158 on port 1883.
+1769692538: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692539: New connection from 192.168.65.1:26970 on port 1883.
+1769692539: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692540: New connection from 192.168.65.1:21354 on port 1883.
+1769692540: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692541: New connection from 192.168.65.1:32676 on port 1883.
+1769692541: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692542: New connection from 192.168.65.1:49800 on port 1883.
+1769692542: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692543: New connection from 192.168.65.1:58080 on port 1883.
+1769692543: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692544: New connection from 192.168.65.1:35088 on port 1883.
+1769692544: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692545: New connection from 192.168.65.1:40118 on port 1883.
+1769692545: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692546: New connection from 192.168.65.1:45350 on port 1883.
+1769692546: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692547: New connection from 192.168.65.1:31766 on port 1883.
+1769692547: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692548: New connection from 192.168.65.1:63141 on port 1883.
+1769692548: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692549: New connection from 192.168.65.1:36939 on port 1883.
+1769692549: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692550: New connection from 192.168.65.1:62169 on port 1883.
+1769692550: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692551: New connection from 192.168.65.1:28710 on port 1883.
+1769692551: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692552: New connection from 192.168.65.1:17519 on port 1883.
+1769692552: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692553: New connection from 192.168.65.1:43559 on port 1883.
+1769692553: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692554: New connection from 192.168.65.1:41803 on port 1883.
+1769692554: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692555: New connection from 192.168.65.1:32573 on port 1883.
+1769692555: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692556: New connection from 192.168.65.1:45727 on port 1883.
+1769692556: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692557: New connection from 192.168.65.1:46336 on port 1883.
+1769692557: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692558: New connection from 192.168.65.1:45669 on port 1883.
+1769692558: Client mqttjs_fefa6376 disconnected, not authorised.
+1769692931: New connection from 192.168.65.1:48990 on port 1883.
+1769692931: Client mqttjs_ec498695 disconnected, not authorised.
+1769692932: New connection from 192.168.65.1:28513 on port 1883.
+1769692932: Client mqttjs_ec498695 disconnected, not authorised.
+1769692933: New connection from 192.168.65.1:33706 on port 1883.
+1769692933: Client mqttjs_ec498695 disconnected, not authorised.
+1769692934: New connection from 192.168.65.1:22365 on port 1883.
+1769692934: Client mqttjs_ec498695 disconnected, not authorised.
+1769692935: New connection from 192.168.65.1:30643 on port 1883.
+1769692935: Client mqttjs_ec498695 disconnected, not authorised.
+1769692936: New connection from 192.168.65.1:17622 on port 1883.
+1769692936: Client mqttjs_ec498695 disconnected, not authorised.
+1769692937: New connection from 192.168.65.1:35406 on port 1883.
+1769692937: Client mqttjs_ec498695 disconnected, not authorised.
+1769692938: New connection from 192.168.65.1:52871 on port 1883.
+1769692938: Client mqttjs_ec498695 disconnected, not authorised.
+1769692939: New connection from 192.168.65.1:61865 on port 1883.
+1769692939: Client mqttjs_ec498695 disconnected, not authorised.
+1769692940: New connection from 192.168.65.1:46159 on port 1883.
+1769692940: Client mqttjs_ec498695 disconnected, not authorised.
+1769692941: New connection from 192.168.65.1:26277 on port 1883.
+1769692941: Client mqttjs_ec498695 disconnected, not authorised.
+1769692942: New connection from 192.168.65.1:24997 on port 1883.
+1769692942: Client mqttjs_ec498695 disconnected, not authorised.
+1769692943: New connection from 192.168.65.1:42495 on port 1883.
+1769692943: Client mqttjs_ec498695 disconnected, not authorised.
+1769692944: New connection from 192.168.65.1:27922 on port 1883.
+1769692944: Client mqttjs_ec498695 disconnected, not authorised.
+1769692945: New connection from 192.168.65.1:24367 on port 1883.
+1769692945: Client mqttjs_ec498695 disconnected, not authorised.
+1769692946: New connection from 192.168.65.1:18205 on port 1883.
+1769692946: Client mqttjs_ec498695 disconnected, not authorised.
+1769692947: New connection from 192.168.65.1:49438 on port 1883.
+1769692947: Client mqttjs_ec498695 disconnected, not authorised.
+1769692948: New connection from 192.168.65.1:53603 on port 1883.
+1769692948: Client mqttjs_ec498695 disconnected, not authorised.
+1769692949: New connection from 192.168.65.1:42459 on port 1883.
+1769692949: Client mqttjs_ec498695 disconnected, not authorised.
+1769692950: New connection from 192.168.65.1:60894 on port 1883.
+1769692950: Client mqttjs_ec498695 disconnected, not authorised.
+1769692951: New connection from 192.168.65.1:50593 on port 1883.
+1769692951: Client mqttjs_ec498695 disconnected, not authorised.
+1769692952: New connection from 192.168.65.1:31156 on port 1883.
+1769692952: Client mqttjs_ec498695 disconnected, not authorised.
+1769692953: New connection from 192.168.65.1:44403 on port 1883.
+1769692953: Client mqttjs_ec498695 disconnected, not authorised.
+1769692954: New connection from 192.168.65.1:23601 on port 1883.
+1769692954: Client mqttjs_ec498695 disconnected, not authorised.
+1769692955: New connection from 192.168.65.1:45690 on port 1883.
+1769692955: Client mqttjs_ec498695 disconnected, not authorised.
+1769692956: New connection from 192.168.65.1:44695 on port 1883.
+1769692956: Client mqttjs_ec498695 disconnected, not authorised.
+1769692957: New connection from 192.168.65.1:35851 on port 1883.
+1769692957: Client mqttjs_ec498695 disconnected, not authorised.
+1769692958: New connection from 192.168.65.1:48794 on port 1883.
+1769692958: Client mqttjs_ec498695 disconnected, not authorised.
+1769692959: New connection from 192.168.65.1:36107 on port 1883.
+1769692959: Client mqttjs_ec498695 disconnected, not authorised.
+1769692960: New connection from 192.168.65.1:52768 on port 1883.
+1769692960: Client mqttjs_ec498695 disconnected, not authorised.
+1769692961: New connection from 192.168.65.1:29882 on port 1883.
+1769692961: Client mqttjs_ec498695 disconnected, not authorised.
+1769692962: New connection from 192.168.65.1:17975 on port 1883.
+1769692962: Client mqttjs_ec498695 disconnected, not authorised.
+1769692963: New connection from 192.168.65.1:50587 on port 1883.
+1769692963: Client mqttjs_ec498695 disconnected, not authorised.
+1769692964: New connection from 192.168.65.1:41866 on port 1883.
+1769692964: Client mqttjs_ec498695 disconnected, not authorised.
+1769692965: New connection from 192.168.65.1:50845 on port 1883.
+1769692965: Client mqttjs_ec498695 disconnected, not authorised.
+1769693015: mosquitto version 2.0.22 terminating
+1769693015: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769693021: mosquitto version 2.0.22 starting
+1769693021: Config loaded from /mosquitto/config/mosquitto.conf.
+1769693021: Opening ipv4 listen socket on port 1883.
+1769693021: Opening ipv6 listen socket on port 1883.
+1769693021: Opening websockets listen socket on port 9000.
+1769693021: mosquitto version 2.0.22 running
+1769693035: New connection from 192.168.65.1:49520 on port 1883.
+1769693035: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693036: New connection from 192.168.65.1:59080 on port 1883.
+1769693036: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693037: New connection from 192.168.65.1:54264 on port 1883.
+1769693037: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693038: New connection from 192.168.65.1:37559 on port 1883.
+1769693038: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693039: New connection from 192.168.65.1:50784 on port 1883.
+1769693039: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693040: New connection from 192.168.65.1:56085 on port 1883.
+1769693040: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693041: New connection from 192.168.65.1:50909 on port 1883.
+1769693041: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693042: New connection from 192.168.65.1:54178 on port 1883.
+1769693042: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693043: New connection from 192.168.65.1:18932 on port 1883.
+1769693043: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693044: New connection from 192.168.65.1:47661 on port 1883.
+1769693044: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693045: New connection from 192.168.65.1:19475 on port 1883.
+1769693045: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693046: New connection from 192.168.65.1:39378 on port 1883.
+1769693046: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693047: New connection from 192.168.65.1:20349 on port 1883.
+1769693047: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693048: New connection from 192.168.65.1:39229 on port 1883.
+1769693048: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693049: New connection from 192.168.65.1:48790 on port 1883.
+1769693049: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693050: New connection from 192.168.65.1:16990 on port 1883.
+1769693050: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693051: New connection from 192.168.65.1:29389 on port 1883.
+1769693051: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693052: New connection from 192.168.65.1:61542 on port 1883.
+1769693052: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693053: New connection from 192.168.65.1:61593 on port 1883.
+1769693053: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693054: New connection from 192.168.65.1:18241 on port 1883.
+1769693054: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693055: New connection from 192.168.65.1:50888 on port 1883.
+1769693055: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693056: New connection from 192.168.65.1:51531 on port 1883.
+1769693056: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693057: New connection from 192.168.65.1:51758 on port 1883.
+1769693057: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693058: New connection from 192.168.65.1:37624 on port 1883.
+1769693058: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693059: New connection from 192.168.65.1:22804 on port 1883.
+1769693059: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693060: New connection from 192.168.65.1:27501 on port 1883.
+1769693060: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693061: New connection from 192.168.65.1:45074 on port 1883.
+1769693061: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693062: New connection from 192.168.65.1:48560 on port 1883.
+1769693062: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693063: New connection from 192.168.65.1:42865 on port 1883.
+1769693063: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693064: New connection from 192.168.65.1:63161 on port 1883.
+1769693064: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693065: New connection from 192.168.65.1:18392 on port 1883.
+1769693065: Client mqttjs_d41929f4 disconnected, not authorised.
+1769693169: mosquitto version 2.0.22 terminating
+1769693169: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769693174: mosquitto version 2.0.22 starting
+1769693174: Config loaded from /mosquitto/config/mosquitto.conf.
+1769693174: Opening ipv4 listen socket on port 1883.
+1769693174: Opening ipv6 listen socket on port 1883.
+1769693174: Opening websockets listen socket on port 9000.
+1769693174: mosquitto version 2.0.22 running
+1769693181: New connection from 192.168.65.1:60614 on port 1883.
+1769693181: New client connected from 192.168.65.1:60614 as mqttjs_8dc6ff81 (p2, c1, k10000).
+1769693195: New client connected from ::ffff:192.168.65.1:64466 as mqtt1769693195145 (p2, c1, k60).
+1769693210: Client mqttjs_8dc6ff81 closed its connection.
+1769693212: New connection from 192.168.65.1:26252 on port 1883.
+1769693212: New client connected from 192.168.65.1:26252 as mqttjs_5a7d3e49 (p2, c1, k10000).
+1769693221: Client mqtt1769693195145 closed its connection.
+1769693221: New client connected from ::ffff:192.168.65.1:34850 as mqtt1769693221477 (p2, c1, k60).
+1769693254: Client mqtt1769693221477 closed its connection.
+1769693254: New client connected from ::ffff:192.168.65.1:41490 as mqtt1769693254868 (p2, c1, k60).
+1769693264: Client mqttjs_5a7d3e49 closed its connection.
+1769693266: New connection from 192.168.65.1:28525 on port 1883.
+1769693266: New client connected from 192.168.65.1:28525 as mqttjs_b94290c2 (p2, c1, k10000).
+1769693329: Client mqttjs_b94290c2 closed its connection.
+1769693668: New connection from 192.168.65.1:55008 on port 1883.
+1769693668: New client connected from 192.168.65.1:55008 as mqttjs_47314375 (p2, c1, k10000).
+1769693681: Client mqtt1769693254868 closed its connection.
+1769693681: New client connected from ::ffff:192.168.65.1:27507 as mqtt1769693681461 (p2, c1, k60).
+1769693688: Client mqttjs_47314375 closed its connection.
+1769693690: New connection from 192.168.65.1:45159 on port 1883.
+1769693690: New client connected from 192.168.65.1:45159 as mqttjs_1f5133dd (p2, c1, k10000).
+1769693742: Client mqttjs_1f5133dd closed its connection.
+1769694088: New connection from 192.168.65.1:33672 on port 1883.
+1769694088: New client connected from 192.168.65.1:33672 as mqttjs_e361c3d1 (p2, c1, k10000).
+1769694104: Client mqtt1769693681461 closed its connection.
+1769694105: New client connected from ::ffff:192.168.65.1:33183 as mqtt1769694105064 (p2, c1, k60).
+1769694131: Client mqttjs_e361c3d1 closed its connection.
+1769694293: New connection from 192.168.65.1:41727 on port 1883.
+1769694293: New client connected from 192.168.65.1:41727 as mqttjs_3469c406 (p2, c1, k10000).
+1769694302: Client mqttjs_3469c406 closed its connection.
+1769694370: Client mqtt1769694105064 closed its connection.
+1769694883: New client connected from ::ffff:192.168.65.1:56085 as mqtt1769694883192 (p2, c1, k60).
+1769694974: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769695289: New connection from 192.168.65.1:38596 on port 1883.
+1769695289: New client connected from 192.168.65.1:38596 as mqttjs_4ba1d4ba (p2, c1, k10000).
+1769695313: Client mqtt1769694883192 closed its connection.
+1769695314: New client connected from ::ffff:192.168.65.1:49204 as mqtt1769695313987 (p2, c1, k60).
+1769695318: Client mqttjs_4ba1d4ba closed its connection.
+1769695319: New connection from 192.168.65.1:52047 on port 1883.
+1769695319: New client connected from 192.168.65.1:52047 as mqttjs_f0a685db (p2, c1, k10000).
+1769695540: Client mqttjs_f0a685db closed its connection.
+1769695573: New connection from 192.168.65.1:54088 on port 1883.
+1769695573: New client connected from 192.168.65.1:54088 as mqttjs_893fe9d0 (p2, c1, k10000).
+1769695584: Client mqttjs_893fe9d0 closed its connection.
+1769695589: New connection from 192.168.65.1:20920 on port 1883.
+1769695589: New client connected from 192.168.65.1:20920 as mqttjs_82fb828a (p2, c1, k10000).
+1769695594: Client mqtt1769695313987 closed its connection.
+1769695594: New client connected from ::ffff:192.168.65.1:39163 as mqtt1769695594689 (p2, c1, k60).
+1769695604: Client mqttjs_82fb828a closed its connection.
+1769695606: New connection from 192.168.65.1:26405 on port 1883.
+1769695606: New client connected from 192.168.65.1:26405 as mqttjs_87db91d5 (p2, c1, k10000).
+1769695625: Client mqttjs_87db91d5 closed its connection.
+1769695627: New connection from 192.168.65.1:37497 on port 1883.
+1769695627: New client connected from 192.168.65.1:37497 as mqttjs_003ed899 (p2, c1, k10000).
+1769696194: Client mqtt1769695594689 disconnected.
+1769696775: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769696831: Client mqttjs_003ed899 closed its connection.
+1769696832: New connection from 192.168.65.1:48718 on port 1883.
+1769696832: New client connected from 192.168.65.1:48718 as mqttjs_864026ca (p2, c1, k10000).
+1769696835: Client mqttjs_864026ca closed its connection.
+1769696866: New connection from 192.168.65.1:39978 on port 1883.
+1769696866: New client connected from 192.168.65.1:39978 as mqttjs_271a87f0 (p2, c1, k10000).
+1769696872: Client mqttjs_271a87f0 closed its connection.
+1769698023: New connection from 192.168.65.1:44852 on port 1883.
+1769698023: New client connected from 192.168.65.1:44852 as mqttjs_231de1f7 (p2, c1, k10000).
+1769698037: Client mqttjs_231de1f7 closed its connection.
+1769698068: New connection from 192.168.65.1:59672 on port 1883.
+1769698068: New client connected from 192.168.65.1:59672 as mqttjs_30aa35e1 (p2, c1, k10000).
+1769698221: Client mqttjs_30aa35e1 closed its connection.
+1769698223: New connection from 192.168.65.1:41572 on port 1883.
+1769698223: New client connected from 192.168.65.1:41572 as mqttjs_e0372b79 (p2, c1, k10000).
+1769698238: Client mqttjs_e0372b79 closed its connection.
+1769698576: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769698907: New connection from 192.168.65.1:34471 on port 1883.
+1769698907: New client connected from 192.168.65.1:34471 as mqttjs_2123e7ac (p2, c1, k10000).
+1769698925: Client mqttjs_2123e7ac closed its connection.
+1769699769: New connection from 192.168.65.1:43678 on port 1883.
+1769699769: New client connected from 192.168.65.1:43678 as mqttjs_e8fda8aa (p2, c1, k10000).
+1769699772: Client mqttjs_e8fda8aa closed its connection.
+1769699890: New connection from 192.168.65.1:55040 on port 1883.
+1769699890: New client connected from 192.168.65.1:55040 as mqttjs_c2808ad1 (p2, c1, k10000).
+1769699906: Client mqttjs_c2808ad1 closed its connection.
+1769700020: New connection from 192.168.65.1:58196 on port 1883.
+1769700020: New client connected from 192.168.65.1:58196 as mqttjs_366260c4 (p2, c1, k10000).
+1769700039: Client mqttjs_366260c4 closed its connection.
+1769700060: New connection from 192.168.65.1:58919 on port 1883.
+1769700060: New client connected from 192.168.65.1:58919 as mqttjs_ed3b577a (p2, c1, k10000).
+1769700078: New client connected from ::ffff:192.168.65.1:56492 as mqtt1769700078302 (p2, c1, k60).
+1769700121: Client mqttjs_ed3b577a closed its connection.
+1769700140: Client mqtt1769700078302 closed its connection.
+1769700140: New client connected from ::ffff:192.168.65.1:31932 as mqtt1769700140508 (p2, c1, k60).
+1769700159: New connection from 192.168.65.1:56809 on port 1883.
+1769700159: New client connected from 192.168.65.1:56809 as mqttjs_b45fa8e2 (p2, c1, k10000).
+1769700175: Client mqttjs_b45fa8e2 closed its connection.
+1769700292: Client mqtt1769700140508 closed its connection.
+1769700421: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769700425: New client connected from ::ffff:192.168.65.1:18098 as mqtt1769700140508 (p2, c1, k60).
+1769700515: Client mqtt1769700140508 closed its connection.
+1769700617: New client connected from ::ffff:192.168.65.1:45924 as mqtt1769700140508 (p2, c1, k60).
+1769700709: Client mqtt1769700140508 closed its connection.
+1769700724: New client connected from ::ffff:192.168.65.1:27946 as mqtt1769700140508 (p2, c1, k60).
+1769700800: Client mqtt1769700140508 closed its connection.
+1769701154: New client connected from ::ffff:192.168.65.1:60484 as mqtt1769700140508 (p2, c1, k60).
+1769701331: Client mqtt1769700140508 closed its connection.
+1769701352: New client connected from ::ffff:192.168.65.1:63743 as mqtt1769700140508 (p2, c1, k60).
+1769701511: Client mqtt1769700140508 closed its connection.
+1769701526: New client connected from ::ffff:192.168.65.1:45164 as mqtt1769700140508 (p2, c1, k60).
+1769701869: Client mqtt1769700140508 closed its connection.
+1769701885: New client connected from ::ffff:192.168.65.1:41221 as mqtt1769700140508 (p2, c1, k60).
+1769702048: Client mqtt1769700140508 closed its connection.
+1769702122: New client connected from ::ffff:192.168.65.1:42330 as mqtt1769700140508 (p2, c1, k60).
+1769703234: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769703234: Client mqtt1769700140508 closed its connection.
+1769703249: New client connected from ::ffff:192.168.65.1:54245 as mqtt1769700140508 (p2, c1, k60).
+1769703748: New connection from 192.168.65.1:25416 on port 1883.
+1769703748: New client connected from 192.168.65.1:25416 as mqttjs_18a066b1 (p2, c1, k10000).
+1769703751: Client mqttjs_18a066b1 closed its connection.
+1769703786: New connection from 192.168.65.1:61305 on port 1883.
+1769703786: New client connected from 192.168.65.1:61305 as mqttjs_355eb2a3 (p2, c1, k10000).
+1769703849: Client mqtt1769700140508 disconnected.
+1769703856: New client connected from ::ffff:192.168.65.1:16755 as mqtt1769703856256 (p2, c1, k60).
+1769704067: Client mqttjs_355eb2a3 closed its connection.
+1769704071: New connection from 192.168.65.1:65354 on port 1883.
+1769704071: New client connected from 192.168.65.1:65354 as mqttjs_944422be (p2, c1, k10000).
+1769704112: Client mqtt1769703856256 closed its connection.
+1769704112: New client connected from ::ffff:192.168.65.1:29577 as mqtt1769704112566 (p2, c1, k60).
+1769704133: Client mqttjs_944422be closed its connection.
+1769704228: New connection from 192.168.65.1:24268 on port 1883.
+1769704228: New client connected from 192.168.65.1:24268 as mqttjs_12deb335 (p2, c1, k10000).
+1769704290: Client mqttjs_12deb335 closed its connection.
+1769704422: New connection from 192.168.65.1:28186 on port 1883.
+1769704422: New client connected from 192.168.65.1:28186 as mqttjs_281cb0ea (p2, c1, k10000).
+1769704435: Client mqtt1769704112566 closed its connection.
+1769704436: New client connected from ::ffff:192.168.65.1:24791 as mqtt1769704435955 (p2, c1, k60).
+1769704472: Client mqttjs_281cb0ea closed its connection.
+1769705034: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769705036: Client mqtt1769704435955 disconnected.
+1769706835: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769708700: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769710515: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769710621: New connection from 192.168.65.1:59536 on port 1883.
+1769710621: New client connected from 192.168.65.1:59536 as mqttjs_88a53909 (p2, c1, k10000).
+1769710850: Client mqttjs_88a53909 closed its connection.
+1769711019: New connection from 192.168.65.1:37276 on port 1883.
+1769711019: New client connected from 192.168.65.1:37276 as mqttjs_f0ec5386 (p2, c1, k10000).
+1769712258: mosquitto version 2.0.22 terminating
+1769712258: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769712263: mosquitto version 2.0.22 starting
+1769712263: Config loaded from /mosquitto/config/mosquitto.conf.
+1769712263: Opening ipv4 listen socket on port 1883.
+1769712263: Opening ipv6 listen socket on port 1883.
+1769712263: Opening websockets listen socket on port 9000.
+1769712263: mosquitto version 2.0.22 running
+1769712263: New connection from 192.168.65.1:42815 on port 1883.
+1769712263: New client connected from 192.168.65.1:42815 as mqttjs_f0ec5386 (p2, c1, k10000).
+1769713483: Client mqttjs_f0ec5386 closed its connection.
+1769713486: New connection from 192.168.65.1:51036 on port 1883.
+1769713486: New client connected from 192.168.65.1:51036 as mqttjs_4c8b4600 (p2, c1, k10000).
+1769714063: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769716299: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769717501: Client mqttjs_4c8b4600 closed its connection.
+1769717902: mosquitto version 2.0.22 terminating
+1769717902: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1769717907: mosquitto version 2.0.22 starting
+1769717907: Config loaded from /mosquitto/config/mosquitto.conf.
+1769717907: Opening ipv4 listen socket on port 1883.
+1769717907: Opening ipv6 listen socket on port 1883.
+1769717907: Opening websockets listen socket on port 9001.
+1769717907: mosquitto version 2.0.22 running
+1769717919: New connection from 192.168.65.1:55508 on port 1883.
+1769717919: New client connected from 192.168.65.1:55508 as mqttjs_8e23912f (p2, c1, k10000).
+1769718746: Client mqttjs_8e23912f closed its connection.
+1769718748: New connection from 192.168.65.1:44118 on port 1883.
+1769718748: New client connected from 192.168.65.1:44118 as mqttjs_f4ab5d78 (p2, c1, k10000).
+1769719623: mosquitto version 2.0.22 terminating
+1769719623: Saving in-memory database to /mosquitto/data//mosquitto.db.

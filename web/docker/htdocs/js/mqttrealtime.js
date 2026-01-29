@@ -15,7 +15,7 @@ mqttGauges = function () {
     // Configurable Section
     var config = {
         version: "1.0.0",                       // Version
-        host: "weather.budworthsc.uk",   // Broker Hostname
+        host: "bscfeed.benorchy.uk",   // Broker Hostname
         port: 9001,                             // Port
         topic: "CumulusMX/Realtime",            // mqtt Topic to subscribe to
         reconnectTimeout: 15,                   // time to wait before attempting to reconnect after a disconnect
@@ -256,8 +256,8 @@ mqttGauges = function () {
             };
             // connect to Broker
             try {
+                console.log("mqttClientConnect: Initiating connection to broker");
                 mqtt.connect(options);
-                console.log("mqttClientConnect: Connection initiated");
             }
             catch (e) {
                 console.log("mqttClientConnect: Exception initiating connection " + e);
