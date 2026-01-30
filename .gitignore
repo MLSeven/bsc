@@ -2,3 +2,6 @@
 .vscode/
 nginx.conf/
 httpd.conf/
+# mqtt files
+log/
+data/
