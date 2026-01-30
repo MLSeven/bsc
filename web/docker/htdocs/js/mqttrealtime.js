@@ -16,7 +16,7 @@ mqttGauges = function () {
     var config = {
         version: "1.0.0",                       // Version
         host: "bscfeed.benorchy.uk",   // Broker Hostname
-        port: 9001,                             // Port
+        port: 443,                             // Port now 443 with cloudflare
         topic: "CumulusMX/Realtime",            // mqtt Topic to subscribe to
         reconnectTimeout: 15,                   // time to wait before attempting to reconnect after a disconnect
         reconnectAttempts: 5,                   // Number of times reconnection is attempted
