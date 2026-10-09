@@ -4,7 +4,7 @@ const version="1.0 SPotts"
 const loadingPoster = "bsc/loading.png";
 const timeoutPoster = "bsc/timeout.png";
 //Timeout 10 Minutes
-const timeout= 10*16*1000;
+const timeout= 10*60*1000;
 
 //Create tbe RTCPeerConnection which will handle the camera stream from Cloudflare
 const pc = new RTCPeerConnection({ bundlePolicy: "max-bundle" });
