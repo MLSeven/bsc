@@ -13,3 +13,7 @@ The data logging is performed at the club by a Raspberry Pi with the CumulusMX p
 
 An externally hosted website where sailors can visit to see the realtime wind gauges and data tables. Static conttnt is updated every 15 minutes from the Raspberry Pi and gaugue data is updated real-time via MQTT javascript objects 
 
+## Mere Webcam Testing
+
+Version 3 includes a test page for viewing the newly installed Webcam overlooking the Mere
+The webcam view utilises a Cloudflare WebRTC stream forwarded from the Webcam

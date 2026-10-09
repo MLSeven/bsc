@@ -14,9 +14,9 @@ mqttGauges = function () {
 
     // Configurable Section
     var config = {
-        version: "1.0.0",                       // Version
-        host: "weather.budworthsc.uk",   // Broker Hostname
-        port: 9001,                             // Port
+        version: "3.0.0",                       // Version
+        host: "dials.budworthsc.uk",            // Broker Hostname
+        port: 443,                              // Port
         topic: "CumulusMX/Realtime",            // mqtt Topic to subscribe to
         reconnectTimeout: 15,                   // time to wait before attempting to reconnect after a disconnect
         reconnectAttempts: 5,                   // Number of times reconnection is attempted
