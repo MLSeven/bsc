@@ -10,6 +10,8 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="bsc/theme_budworth.css" rel="stylesheet" type="text/css" />
     <link href="bsc/bscstyle.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <!-- this stylesheet is for the Steelseries Gauges-->
 
 </head>
@@ -17,8 +19,7 @@
 <body>
     <div class="container-fluid bscbody pb-2">
         <header>
-            <div class="container-fluid bg-primary bsctitles">
-                <img class="img-fluid" src="bsc/bsclogotrans.png">
+            <div class="container-fluid bg-primary bsctitles" hidden>  
             </div>
             <nav class="navbar navbar-expand-md navbar-dark bg-danger">
                 <a class="navbar-brand" href="#">Budworth TV</a>
@@ -35,9 +36,27 @@
             </nav>
         </header>
         <section>
+            <div class="container-fluid bg-primary p-1 d-flex">
+                <!-- use this container to show the status of the stream-->
+                <div id="healthyicon" class="p-1 text-success" >
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div id="unhealthyicon" class="p-1 text-danger" >
+                    <i class="fas fa-heart-broken"></i>
+                </div>
+                <div id="streamicon" class="p-1 text-info" >
+                    <i class="fas fa-tachometer-alt"></i>
+                    kBps
+                </div>
+                <div id="streamrate" class="p-1 text-info" >
+                </div>
+                <!-- Responsive: Marquee - Scroll on small screens-->
+                <div class="p-1 flex-grow-1 text-light marquee-container">
+                    <span id="banner" class="marquee-text"> </span>
+                </div>
+            </div>
             <div class="container-fluid bg-light p-2">
-                <video class="embed-responsive embed-responsive-16by9" id="merewebcam" autoplay muted playsinline poster="bsc/loading.png">
-
+                <video class="embed-responsive embed-responsive-16by9" id="merewebcam" autoplay muted playsinline>
                 </video>
             </div>
         </section>

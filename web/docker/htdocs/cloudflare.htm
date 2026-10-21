@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Cloudflare Stream WHIP/WHEP example</title>
+	</head>
+	<body>
+		<h2>Broadcast (WHIP)</h2>
+		<video id="broadcast-preview" autoplay muted playsinline></video>
+		<button id="broadcast-btn">Start broadcasting</button>
+
+		<h2>Playback (WHEP)</h2>
+		<video id="playback-video" autoplay playsinline controls></video>
+		<button id="playback-btn">Start playback</button>
+
+		<script type="module">
+			const WHIP_URL = "<WHIP_URL_FROM_YOUR_LIVE_INPUT>";
+			const WHEP_URL = "<WHEP_URL_FROM_YOUR_LIVE_INPUT>";
+
+			async function negotiate(pc, url) {
+				const offer = await pc.createOffer();
+				await pc.setLocalDescription(offer);
+
+				const response = await fetch(url, {
+					method: "POST",
+					headers: { "Content-Type": "application/sdp" },
+					body: offer.sdp,
+				});
+				if (!response.ok) {
+					throw new Error(`Request failed: ${response.status}`);
+				}
+
+				const answer = await response.text();
+				await pc.setRemoteDescription({ type: "answer", sdp: answer });
+				return new URL(response.headers.get("Location"), url).toString();
+			}
+
+			document
+				.getElementById("broadcast-btn")
+				.addEventListener("click", async () => {
+					const media = await navigator.mediaDevices.getUserMedia({
+						video: true,
+						audio: true,
+					});
+					document.getElementById("broadcast-preview").srcObject = media;
+
+					const pc = new RTCPeerConnection();
+					media
+						.getTracks()
+						.forEach((track) =>
+							pc.addTransceiver(track, { direction: "sendonly" }),
+						);
+
+					await negotiate(pc, WHIP_URL);
+				});
+
+			document
+				.getElementById("playback-btn")
+				.addEventListener("click", async () => {
+					const pc = new RTCPeerConnection();
+					pc.addTransceiver("video", { direction: "recvonly" });
+					pc.addTransceiver("audio", { direction: "recvonly" });
+
+					const stream = new MediaStream();
+					document.getElementById("playback-video").srcObject = stream;
+					pc.ontrack = (event) => stream.addTrack(event.track);
+
+					await negotiate(pc, WHEP_URL);
+				});
+		</script>
+	</body>
+</html>
